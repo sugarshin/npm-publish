@@ -1,0 +1,7 @@
+{
+  "name": "npm-publish",
+  "version": "0.0.0",
+  "description": "A npm module publisher",
+  "install": "install -b npm-publish.sh ${PREFIX:-/usr/local}/bin/npm-publish",
+  "scripts": [ "npm-publish.sh" ]
+}
